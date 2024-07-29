@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+</head>
+<body>
+    <div class="container">
+        <div class="translateContent">
+            <div class="tcl">
+                <textarea name="Etext" id="Et1" cols="30" rows="10" placeholder="Enter Text"></textarea>
+                <textarea name="Ttext" id="Tt2" cols="30" rows="10" placeholder="Translation" readonly disabled></textarea>
+            </div>
+            <div class="translateBottom">
+                <div class="TBL">
+                    <div class="TBL1" id="Icons">
+                    <i id = "from"  class="ri-volume-up-line"></i>
+                    <i id = "from" class="ri-file-copy-fill"></i>
+                    </div>
+                    <select id="dropdown1">
+                    </select>
+                </div>
+                <div class="TRI">
+                    <i class="ri-arrow-left-right-line"></i>
+                </div>
+                <div class="TBR">
+                    <select id="dropdown2">
+                    </select>
+                    <div class="TBR1" id="Icons">
+                    <i id = "to"  class="ri-volume-up-line"></i>
+                    <i id = "to" class="ri-file-copy-fill"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="translateButton">
+            Translate Text
+        </button>
+    </div>
+    <script src="script2.js"></script>
+    <script src="script1.js"></script>
+</body>
+</html>
